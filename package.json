@@ -1,16 +1,17 @@
 {
   "name": "murali-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Portfolio application for Murali Chepuri",
   "main": "index.js",
-  "homepage": "https://mchepuri.github.io/murali-portfolio",
+  "homepage": "https://mchepuri.github.io/murali-portfolio/",
+  "private":false,
   "scripts": {
     "test": "npm test",
     "build": "webpack",
     "start": "webpack serve --open --hot --host 0.0.0.0 --mode development",
     "cra-lite": "npm  i prompt-sync; node scripts/create_app",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "author": "mchepuri",
   "license": "",
