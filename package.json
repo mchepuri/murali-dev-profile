@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Portfolio application for Murali Chepuri",
   "main": "index.js",
+  "homepage": "https://mchepuri.github.io/murali-portfolio",
   "scripts": {
     "test": "npm test",
     "build": "webpack",
     "start": "webpack serve --open --hot --host 0.0.0.0 --mode development",
     "cra-lite": "npm  i prompt-sync; node scripts/create_app",
-    "deploy": "npm run build"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "author": "mchepuri",
   "license": "",
@@ -45,6 +47,7 @@
     "@webpack-cli/serve": "^1.6.1",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.4.6",
     "sass": "^1.49.11",
