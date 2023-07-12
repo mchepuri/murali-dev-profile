@@ -1,0 +1,43 @@
+export const experienceData = [
+    {
+        id: 1,
+        company: 'realtor.com',
+        jobtitle: 'Tech Lead',
+        startYear: '2018',
+        endYear: 'Current',
+        resps:["Managing and executing projects with a full responsibility of delivery, Beginning from a project/initiative capacity planning, dependency analysis, project plan." ,
+        "Involve in feature development by writing self-documenting code using React JS, Next JS, styled components, hooks, dynamic components, JSX , review pull requests, and solicit feedback from designers and PMs.",
+        "Develop a React app with server side rendering and with SPA transitions in Node/Next JS, translate designers work in to well-constructed JSX/SASS and Implement responsive , accessible , SEO complaint pages.",
+        "Implement various backend APIs using AWS lambda(NodeJS) and serverless technology including making it available to public securely through APIGateway"],
+    },
+    {
+        id: 2,
+        company: 'Facebook',
+        jobtitle: 'Sr Engineer',
+        startYear: '2015',
+        endYear: '2018',
+        resps:["Involved in developing Web applications using Facebook React java script framework, GraphQL, PHP ( HACK), ADF" ,
+        "Write , test react components using test libraries such as enzyme, jest, react-test-library.",
+        "Active participation and contribution in all client project reviews as well as internal service reviews; focus on the overall delivery quality and timely execution of the project being handled."],
+    },
+    {
+        id: 3,
+        company: 'Schneider National',
+        jobtitle: 'Sr Applications Engineer',
+        startYear: '2010',
+        endYear: '2014',
+        resps:["Involved in developing Web applications for custom applications using ADF, Task Flows, Train Flows, ADF Menu models, ADF Regions, contextual events, Master Detail patterns, Advanced Query Panels, Tree Tables JSF, and HTML" ,
+        "Integrate the Revenue Management with different ERP systems like Oracle Transportation Management and Siebel Order Management using Oracle SOA suite 11G like Oracle BPEL,composites, XSLT with custom templates, Webservices etc.",
+        "Involved in different phases of testing right from QA Hand Offs, fixing issues and Interacted with Business Analyst on new features."],
+    },
+    {
+        id: 4,
+        company: 'Oracle-India',
+        jobtitle: 'Applications Engineer',
+        startYear: '2004',
+        endYear: '2007',
+        resps:["Involved in developing UI screens for Summary of Interactions and CRUD operations of Interactions using ADF, BC4J, HTML.(some of the Components used are : Advanced Query panel , pop ups , List Of Values etc",
+        "Development of purchasing setup pages using OAF." ,
+        "Involved in writing Automated test scripts in winrunner and testing oracle applications ( using automated test scripts will cut down the testing time)."],
+    }
+]

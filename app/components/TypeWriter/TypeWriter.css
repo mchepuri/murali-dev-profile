@@ -1,0 +1,27 @@
+.line-1{
+  position: relative;
+  width: 11em;
+  left:0em;
+  margin: 0 auto;
+  border-right: 3px solid rgba(4, 0, 0, 0.75);
+  font-size: 180%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%); 
+     
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 3s steps(20) 3s 1 normal both,
+           blinkTextCursor 500ms steps(20) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 11em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(4, 0, 0, 0.75);}
+to{border-right-color: transparent;}
+}
