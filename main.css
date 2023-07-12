@@ -384,7 +384,7 @@ img {
   }
   .lcr--content {
     width: 60%;
-    margin-top: 10%;
+    margin-top: 55%;
     margin-right: 6%;
   }
   .lcr-buttonContainer {
@@ -430,7 +430,7 @@ img {
     padding: 0 2rem;
   }
   .lcr--content {
-    margin-top: 20%;
+    margin-top: 55%;
     margin-right: initial;
     width: 100%;
   }
@@ -460,12 +460,12 @@ img {
 }
 @media (max-width: 500px) {
   .lcr--content {
-    margin-top: 35%;
+    margin-top: 75%;
   }
 }
 @media (max-width: 370px) {
   .lcr--content {
-    margin-top: 60%;
+    margin-top: 145%;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
@@ -1410,11 +1410,6 @@ img {
   transition: background-color 200ms ease-in-out;
 }
 
-.experience-card-hdr {
-  display: flex;
-  flex-direction: row;
-}
-
 .expcard-img {
   border-radius: 50%;
   width: 55px;
@@ -1457,6 +1452,11 @@ img {
   font-family: var(--primaryFont);
   font-size: 1.15rem;
   font-weight: 600;
+}
+
+.experience-card-hdr {
+  display: flex;
+  flex-direction: row;
 }
 
 .experience-image {
@@ -1505,7 +1505,7 @@ img {
   .experience-card {
     padding: 1rem;
     margin-bottom: 1.5rem;
-    height: 130px;
+    /*height: 130px;*/
   }
   .expcard-img {
     border-radius: 50%;
