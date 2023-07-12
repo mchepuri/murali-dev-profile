@@ -9,7 +9,7 @@ export  const App = () =>{
         return(
         <div className="app"> 
                 {/*Change me*/}
-                <Router basename="/murali-portfolio">
+                <Router>
                         <Routes>
                                 <Route path="/" exact element={<Main/>} />
                         </Routes>

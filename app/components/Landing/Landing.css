@@ -142,7 +142,7 @@
     }
     .lcr--content {
       width: 60%;
-      margin-top: 10%;
+      margin-top: 55%;
       margin-right: 6%;
     }
   
@@ -190,7 +190,7 @@
       padding: 0 2rem;
     }
     .lcr--content {
-      margin-top: 20%;
+      margin-top: 55%;
       margin-right: initial;
       width: 100%;
     }
@@ -221,12 +221,12 @@
   
   @media (max-width: 500px) {
     .lcr--content {
-      margin-top: 35%;
+      margin-top: 75%;
     }
   }
   @media (max-width: 370px) {
     .lcr--content {
-      margin-top: 60%;
+      margin-top: 145%;
     }
   }
   
